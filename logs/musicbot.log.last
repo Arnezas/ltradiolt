@@ -1,0 +1,48 @@
+[76.019287109] 2019-09-08 20:24:48,740 - INFO - launcher: Starting sanity checks
+[77.018260956] 2019-09-08 20:24:48,741 - INFO - launcher: Checking for Python 3.5+
+[77.018260956] 2019-09-08 20:24:48,741 - INFO - launcher: Checking console encoding
+[78.028678894] 2019-09-08 20:24:48,742 - INFO - launcher: Setting console encoding to UTF-8
+[78.028678894] 2019-09-08 20:24:48,742 - INFO - launcher: Ensuring we're in the right environment
+[80.016136169] 2019-09-08 20:24:48,744 - INFO - launcher: Adding local bins/ folder to path
+[1213.999986649] 2019-09-08 20:24:49,878 - INFO - launcher: Required checks passed.
+[1214.992046356] 2019-09-08 20:24:49,879 - INFO - launcher: Optional checks passed.
+[1215.989112854] 2019-09-08 20:24:49,880 - INFO - launcher: Moving old musicbot log
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[3.5479822158813477] 2019-09-08 20:24:52,212 - WARNING - musicbot.config | In config.py::MainThread(3920), line 121 in run_checks: i18n file does not exist. Trying to fallback to config/i18n/en.json.
+[3.5489842891693115] 2019-09-08 20:24:52,213 - INFO - musicbot.config | In config.py::MainThread(3920), line 132 in run_checks: Using i18n: config/i18n/en.json
+[3.5549833774566650] 2019-09-08 20:24:52,219 - DEBUG - musicbot.bot | In bot.py::MainThread(3920), line 225 in _setup_logging: Set logging level to INFO
+[3.5609869956970215] 2019-09-08 20:24:52,225 - DEBUG - musicbot.json | In json.py::MainThread(3920), line 8 in __init__: Init JSON obj with config/i18n/en.json
+[3.6860163211822510] 2019-09-08 20:24:52,350 - INFO - musicbot.bot | In bot.py::MainThread(3920), line 90 in __init__: Starting MusicBot version_unknown
+[3.6870181560516357] 2019-09-08 20:24:52,351 - INFO - musicbot.bot | In bot.py::MainThread(3920), line 96 in __init__: Loaded autoplaylist with 2529 entries
+[7.4377059936523438] 2019-09-08 20:24:56,102 - DEBUG - musicbot.bot | In bot.py::MainThread(3920), line 951 in on_ready: Connection established, ready to go.
+[7.4385893344879150] 2019-09-08 20:24:56,102 - DEBUG - musicbot.bot | In bot.py::MainThread(3920), line 342 in _cache_app_info: Caching app info
+[7.6509716510772705] 2019-09-08 20:24:56,315 - DEBUG - musicbot.bot | In bot.py::MainThread(3920), line 773 in _scheck_ensure_env: Ensuring data folders exist
+[7.6559698581695557] 2019-09-08 20:24:56,320 - DEBUG - musicbot.bot | In bot.py::MainThread(3920), line 789 in _scheck_server_permissions: Checking server permissions
+[7.6559698581695557] 2019-09-08 20:24:56,320 - DEBUG - musicbot.bot | In bot.py::MainThread(3920), line 793 in _scheck_autoplaylist: Auditing autoplaylist
+[7.6559698581695557] 2019-09-08 20:24:56,320 - DEBUG - musicbot.bot | In bot.py::MainThread(3920), line 797 in _scheck_configs: Validating config
+[7.6559698581695557] 2019-09-08 20:24:56,320 - DEBUG - musicbot.config | In config.py::MainThread(3920), line 236 in async_validate: Validating options...
+[7.6559698581695557] 2019-09-08 20:24:56,320 - DEBUG - musicbot.bot | In bot.py::MainThread(3920), line 800 in _scheck_configs: Validating permissions config
+[7.6570761203765869] 2019-09-08 20:24:56,321 - DEBUG - musicbot.permissions | In permissions.py::MainThread(3920), line 94 in async_validate: Validating permissions...
+[7.6570761203765869] 2019-09-08 20:24:56,321 - INFO - musicbot.bot | In bot.py::MainThread(3920), line 968 in on_ready: Connected: 507183216986423296/Scarlet#1066
+[7.6579930782318115] 2019-09-08 20:24:56,322 - INFO - musicbot.bot | In bot.py::MainThread(3920), line 976 in on_ready: Owner:     326673425416454144/Stiopka#0509
+
+[7.6590783596038818] 2019-09-08 20:24:56,323 - INFO - musicbot.bot | In bot.py::MainThread(3920), line 979 in on_ready: Guild List:
+[7.6600847244262695] 2019-09-08 20:24:56,324 - INFO - musicbot.bot | In bot.py::MainThread(3920), line 983 in on_ready:  - Chill Group
+[7.6600847244262695] 2019-09-08 20:24:56,324 - INFO - musicbot.bot | In bot.py::MainThread(3920), line 1039 in on_ready: Not bound to any text channels
+[7.6610772609710693] 2019-09-08 20:24:56,325 - INFO - musicbot.bot | In bot.py::MainThread(3920), line 1065 in on_ready: Not autojoining any voice channels
+[7.6620821952819824] 2019-09-08 20:24:56,326 - INFO - musicbot.bot | In bot.py::MainThread(3920), line 272 in _join_startup_channels: Found owner in "🎵Music"
+[7.6639747619628906] 2019-09-08 20:24:56,328 - INFO - musicbot.bot | In bot.py::MainThread(3920), line 281 in _join_startup_channels: Attempting to join Chill Group/🎵Music
+[8.6430938243865967] 2019-09-08 20:24:57,307 - DEBUG - musicbot.bot | In bot.py::MainThread(3920), line 733 in deserialize_queue: Deserializing queue for 552812069418827777
+[9.1051969528198242] 2019-09-08 20:24:57,769 - DEBUG - musicbot.bot | In bot.py::MainThread(3920), line 425 in get_player: Created player via deserialization for guild 552812069418827777 with 2 entries
+[9.1062004566192627] 2019-09-08 20:24:57,770 - INFO - musicbot.bot | In bot.py::MainThread(3920), line 297 in _join_startup_channels: Joined Chill Group/🎵Music
+[9.1081998348236084] 2019-09-08 20:24:57,772 - DEBUG - musicbot.entry | In entry.py::MainThread(3920), line 56 in get_ready_future: Created future for None
+[9.1081998348236084] 2019-09-08 20:24:57,772 - DEBUG - musicbot.entry | In entry.py::MainThread(3920), line 56 in get_ready_future: Created future for audio_cache\youtube-r5MRT7hZbto-Best_of_Chill_Nation_Mix_2019.webm
+[9.1081998348236084] 2019-09-08 20:24:57,772 - FFMPEG - musicbot.player | In player.py::MainThread(3920), line 293 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-r5MRT7hZbto-Best_of_Chill_Nation_Mix_2019.webm
+[11.2340066432952881] 2019-09-08 20:24:59,898 - DEBUG - musicbot.player | In player.py::MainThread(3920), line 306 in _play: Playing <musicbot.player.SourcePlaybackCounter object at 0x05B2A210> using <discord.voice_client.VoiceClient object at 0x04EDCC10>
+[11.2408769130706787] 2019-09-08 20:24:59,905 - INFO - musicbot.entry | In entry.py::MainThread(3920), line 207 in _download: Download cached: https://youtube.com/watch?v=IAmgTNATJkk
+[11.2428758144378662] 2019-09-08 20:24:59,907 - DEBUG - musicbot.bot | In bot.py::MainThread(3920), line 460 in on_player_play: Running on_player_play
+[11.2438769340515137] 2019-09-08 20:24:59,908 - DEBUG - musicbot.bot | In bot.py::MainThread(3920), line 709 in serialize_queue: Serializing queue for 552812069418827777
+[22.0640745162963867] 2019-09-08 20:25:10,728 - INFO - musicbot.bot | In bot.py::MainThread(3920), line 2706 in on_message: 326673425416454144/Stiopka#0509: ''shutdown
+[22.691884995] launcher-INFO: All done.
